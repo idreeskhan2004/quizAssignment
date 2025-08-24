@@ -1,0 +1,308 @@
+{
+  "html": [
+    {
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Hyper Transfer Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which tag is used to create a anchor?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<hyperlink>"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which attribute is used to specify an alternate text for an image?",
+      "options": [
+        "src",
+        "alt",
+        "title",
+        "href"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which tag is used to define an unordered list?",
+      "options": [
+        "<ol>",
+        "<ul>",
+        "<li>",
+        "<list>"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which character is used to indicate an end tag?",
+      "options": [
+        "^",
+        "/",
+        "*",
+        "<"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which element is used for the largest heading?",
+      "options": [
+        "<h6>",
+        "<head>",
+        "<heading>",
+        "<h1>"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which attribute specifies the URL of the page the link goes to?",
+      "options": [
+        "src",
+        "link",
+        "href",
+        "url"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which tag is used to define a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table-row>"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which tag is used to define an internal style sheet?",
+      "options": [
+        "<css>",
+        "<style>",
+        "<script>",
+        "<link>"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which input type defines a slider control?",
+      "options": [
+        "slider",
+        "range",
+        "scroll",
+        "number"
+      ],
+      "correct": 1
+    }
+  ],
+  "css": [
+    {
+      "question": "What does CSS stand for?",
+      "options": [
+        "Creative Style Sheets",
+        "Cascading Style Sheets",
+        "Computer Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which property is used to change the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "How do you add a background color for all <h1> elements?",
+      "options": [
+        "all.h1 {background-color:#FFFFFF;}",
+        "h1.setAll {background-color:#FFFFFF;}",
+        "h1 {background-color:#FFFFFF;}",
+        "h1.all {background-color:#FFFFFF;}"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which property is used to change the font of an element?",
+      "options": [
+        "font-style",
+        "font-weight",
+        "font-family",
+        "text-style"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "How do you make the text bold?",
+      "options": [
+        "font:bold;",
+        "style:bold;",
+        "font-weight:bold;",
+        "text-style:bold;"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which property is used to change the left margin of an element?",
+      "options": [
+        "margin-left",
+        "padding-left",
+        "indent",
+        "left-margin"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "How do you select an element with id 'demo'?",
+      "options": [
+        ".demo",
+        "#demo",
+        "*demo",
+        "demo"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "How do you select elements with class name 'test'?",
+      "options": [
+        "*test",
+        ".test",
+        "#test",
+        "test"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which property is used to change the text color of an element?",
+      "options": [
+        "text-color",
+        "color",
+        "font-color",
+        "text-style"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which property is used to change the spacing between lines?",
+      "options": [
+        "line-height",
+        "spacing",
+        "line-spacing",
+        "text-spacing"
+      ],
+      "correct": 0
+    }
+  ],
+  "javascript": [
+    {
+      "question": "Which of the following is a JavaScript data type?",
+      "options": [
+        "style",
+        "boolean",
+        "div",
+        "class"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "How do you create a function in JavaScript?",
+      "options": [
+        "function = myFunction()",
+        "function myFunction()",
+        "function:myFunction()",
+        "function => myFunction()"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "How do you call a function named 'myFunction'?",
+      "options": [
+        "call myFunction()",
+        "myFunction()",
+        "call function myFunction()",
+        "myFunction"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "How to write an IF statement in JavaScript?",
+      "options": [
+        "if i == 5 then",
+        "if (i == 5)",
+        "if i = 5",
+        "if i = 5 then"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "How does a FOR loop start?",
+      "options": [
+        "for (i = 0; i <= 5; i++)",
+        "for (i = 0; i <= 5)",
+        "for i = 1 to 5",
+        "for (i <= 5; i++)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "How can you add a comment in JavaScript?",
+      "options": [
+        "//This is a comment",
+        "'This is a comment",
+        "<!--This is a comment-->",
+        "*This is a comment*"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the correct way to write a JavaScript array?",
+      "options": [
+        "var colors = (1:'red', 2:'green', 3:'blue')",
+        "var colors = ['red', 'green', 'blue']",
+        "var colors = 'red', 'green', 'blue'",
+        "var colors = {red, green, blue}"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which operator is used to assign a value to a variable?",
+      "options": [
+        "*",
+        "=",
+        "-",
+        "x"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "How do you round the number 7.25 to the nearest integer?",
+      "options": [
+        "Math.round(7.25)",
+        "round(7.25)",
+        "Math.rnd(7.25)",
+        "rnd(7.25)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which event occurs when the user clicks on an HTML element?",
+      "options": [
+        "onchange",
+        "onclick",
+        "onmouseclick",
+        "onmouseover"
+      ],
+      "correct": 1
+    }
+  ]
+}

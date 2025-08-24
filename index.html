@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster | Test Your Knowledge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>QuizMaster</span>
+            </div>
+            <button class="theme-toggle" id="themeToggle"></button>
+        </header>
+
+        <main>
+            <!-- Landing Page -->
+            <section id="landingPage" class="page active">
+                <div class="card">
+                    <h1>Test Your Knowledge</h1>
+                    <p>Welcome to QuizMaster! Challenge yourself with our curated quizzes on web development topics. Select a subject below to begin your journey.</p>
+                    
+                    <div class="subject-grid">
+                        <div class="subject-card" data-subject="html">
+                            <i class="fab fa-html5"></i>
+                            <h3>HTML</h3>
+                            <p>HyperText Markup Language - The structure of the web</p>
+                        </div>
+                        <div class="subject-card" data-subject="css">
+                            <i class="fab fa-css3-alt"></i>
+                            <h3>CSS</h3>
+                            <p>Cascading Style Sheets - Make the web beautiful</p>
+                        </div>
+                        <div class="subject-card" data-subject="javascript">
+                            <i class="fab fa-js"></i>
+                            <h3>JavaScript</h3>
+                            <p>The programming language of the web</p>
+                        </div>
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 30px;">
+                        <button id="viewLeaderboard" class="btn btn-secondary">
+                            <i class="fas fa-trophy"></i> View Leaderboard
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quiz Page -->
+            <section id="quizPage" class="page">
+                <div class="card">
+                    <div class="timer" id="timer">15s</div>
+                    
+                    <div class="progress-bar">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                    
+                    <div class="question" id="question">
+                        <h2 id="questionText">Question will appear here</h2>
+                        <div class="options" id="options">
+                            <!-- Options will be inserted here -->
+                        </div>
+                    </div>
+                    
+                    <div class="navigation">
+                        <button id="prevBtn" class="btn">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </button>
+                        <button id="nextBtn" class="btn btn-accent">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Page -->
+            <section id="resultsPage" class="page">
+                <div class="result-summary">
+                    <h1>Quiz Completed!</h1>
+                    <p>You've completed the <span id="quizSubject" class="badge badge-primary">Subject</span> quiz</p>
+                    <div class="score" id="finalScore">0/10</div>
+                    <p id="scorePercentage">Percentage: 0%</p>
+                    <p id="performanceMessage">Keep practicing to improve your skills!</p>
+                </div>
+                
+                <div class="card">
+                    <h2>Your Answers</h2>
+                    <div id="answerReview">
+                        <!-- Answer review will be inserted here -->
+                    </div>
+                    
+                    <div class="action-buttons">
+                        <button id="retakeQuiz" class="btn btn-accent">
+                            <i class="fas fa-redo"></i> Retake Quiz
+                        </button>
+                        <button id="newSubject" class="btn">
+                            <i class="fas fa-book"></i> Choose Another Subject
+                        </button>
+                        <button id="viewLeaderboard2" class="btn btn-secondary">
+                            <i class="fas fa-trophy"></i> Leaderboard
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Leaderboard Page -->
+            <section id="leaderboardPage" class="page">
+                <div class="card">
+                    <h1>QuizMaster Leaderboard</h1>
+                    <p>Top scores across all subjects</p>
+                    
+                    <table class="leaderboard">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Name</th>
+                                <th>Subject</th>
+                                <th>Score</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody id="leaderboardBody">
+                            <!-- Leaderboard entries will be inserted here -->
+                        </tbody>
+                    </table>
+                    
+                    <div style="text-align: center; margin-top: 30px;">
+                        <button id="backToHome" class="btn">
+                            <i class="fas fa-home"></i> Back to Home
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>CS 311 - Web Programming Assignment | Summer 2025</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
